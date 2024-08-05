@@ -1,0 +1,35 @@
+# Папка виртуального окружения, созданного Poetry
+.venv/
+
+# Удаляем pyproject.lock при использовании
+poetry.lock
+
+# История скомпилированных файлов Python
+__pycache__/
+*.py[cod]
+
+# Файлы среды разработки
+.coverage
+.tox/
+.nox/
+.db_loss/
+*.sqlite3
+
+# Избыточные системные файлы
+.DS_Store
+Thumbs.db
+
+# Конфигурационные файлы IDE
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Файлы для документации
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Файлы журнала
+*.log
