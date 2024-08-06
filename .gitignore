@@ -1,6 +1,6 @@
 # Папка виртуального окружения, созданного Poetry
 .venv/
-.idea
+.idea/
 
 # Удаляем pyproject.lock при использовании
 poetry.lock
